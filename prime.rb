@@ -1,9 +1,14 @@
 
-def is_prime(num)
-  n = 2
-  while n < num
-    return false if num % n == 0
-    n += 1
-  end
+ef prime?(integer)
+  if integer == 1
+    false
+elsif integer == 2
   true
+elsif integer <=0
+  false
+else
+  range = (2..integer).to_a
+  range.pop
+  range.none? {|number| integer % number == 0}
 end
+end 
