@@ -7,4 +7,4 @@ def prime(n)
   end  
 end    
 
-prime.prime?(-1..105557)
+Prime.prime?(-1..105557)
