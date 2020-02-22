@@ -1,7 +1,7 @@
  require 'prime'
 
 def prime(n)
-  if n.prime? 
+  prime.each(-1..105557)
     return true
   else return false
   end  
