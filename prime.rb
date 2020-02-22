@@ -7,4 +7,4 @@ def is_prime(num)
   true
 end    
 
-Prime.prime?(-1..105557)
+Prime.is_prime.prime?(-1..105557)
