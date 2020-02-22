@@ -1,5 +1,4 @@
- require 'prime'
- 
+
 def is_prime(num)
   n = 2
   while n < num
@@ -8,4 +7,3 @@ def is_prime(num)
   end
   true
 end
-Prime.is_prime.prime?(-1..105557)
