@@ -1,9 +1,10 @@
  require 'prime'
 
-def prime(n)
-  prime.each(-1..105557) do |prime|
-  n prime
+def is_prime(num)
+  (-1..(num - 1)).each do |n|
+  return false if num % n == 0 
   end  
+  true
 end    
 
 Prime.prime?(-1..105557)
