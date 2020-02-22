@@ -6,3 +6,5 @@ def prime(n)
   else return false
   end  
 end    
+
+prime(2..)
