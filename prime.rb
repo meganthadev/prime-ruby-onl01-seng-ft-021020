@@ -11,4 +11,3 @@ else
   range.pop
   range.none? {|number| integer % number == 0}
 end
-end 
