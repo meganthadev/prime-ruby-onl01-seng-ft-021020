@@ -1,10 +1,11 @@
  require 'prime'
-
+ 
 def is_prime(num)
-  (-1..(num - 1)).each do |n|
-  return false if num % n == 0 
-  end  
+  n = 2
+  while n < num
+    return false if num % n == 0
+    n += 1
+  end
   true
-end    
-
+end
 Prime.is_prime.prime?(-1..105557)
