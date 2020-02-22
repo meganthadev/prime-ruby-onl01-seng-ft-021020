@@ -7,4 +7,4 @@ def prime(n)
   end  
 end    
 
-prime(2..)
+prime(2..100)
